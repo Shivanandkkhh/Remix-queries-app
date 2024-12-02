@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "02fa50775f5fd4c84085afef0d47ca19"
+application_url = "https://firewire-recreation-unable-press.trycloudflare.com"
+embedded = true
+name = "Queries"
+handle = "queries-1"
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://firewire-recreation-unable-press.trycloudflare.com/auth/callback",
+  "https://firewire-recreation-unable-press.trycloudflare.com/auth/shopify/callback",
+  "https://firewire-recreation-unable-press.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "checkout-shiv.myshopify.com"
+automatically_update_urls_on_dev = true
+include_config_on_deploy = true
