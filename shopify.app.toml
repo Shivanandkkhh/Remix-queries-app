@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "02fa50775f5fd4c84085afef0d47ca19"
-application_url = "https://firewire-recreation-unable-press.trycloudflare.com"
+application_url = "https://ferry-briefing-aka-tradition.trycloudflare.com"
 embedded = true
 name = "Queries"
 handle = "queries-1"
@@ -19,9 +19,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://firewire-recreation-unable-press.trycloudflare.com/auth/callback",
-  "https://firewire-recreation-unable-press.trycloudflare.com/auth/shopify/callback",
-  "https://firewire-recreation-unable-press.trycloudflare.com/api/auth/callback"
+  "https://ferry-briefing-aka-tradition.trycloudflare.com/auth/callback",
+  "https://ferry-briefing-aka-tradition.trycloudflare.com/auth/shopify/callback",
+  "https://ferry-briefing-aka-tradition.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
